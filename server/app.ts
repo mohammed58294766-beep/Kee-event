@@ -347,7 +347,7 @@ apiRouter.get('/admin/media', (req: Request, res: Response) => {
 apiRouter.post(
   '/admin/upload',
   (req: Request, res: Response) => {
-    upload.single('file')(req, res, (err: any) => {
+    upload.single('file')(req as any, res as any, (err: any) => {
       if (err) {
         console.error('Multer upload error:', err);
         return res.status(400).json({ success: false, error: err.message || 'File upload failed' });
