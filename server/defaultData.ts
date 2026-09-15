@@ -1,0 +1,286 @@
+export const DEFAULT_SITE_SETTINGS = {
+  businessName: 'KEE EVENT AND GARDEN',
+  tagline: 'Where Moments Become Memories',
+  city: 'Jos, Plateau State, Nigeria',
+  address: 'Justice Akanbi Close, behind St. Piran Church, close to Tuscany, Jos, Plateau State, Nigeria',
+  landmark: 'Behind St. Piran Church, near Tuscany',
+  phoneRaw: '+2348037006260',
+  phoneDisplay: '+234 803 700 6260',
+  phoneHref: 'tel:+2348037006260',
+  whatsAppHref: 'https://wa.me/2348037006260?text=Hello%20Kee%20Event%20and%20Garden,%20I%20would%20like%20to%20enquire%20about%20booking%20your%20venue.',
+  email: 'info@keeeventandgarden.com',
+  workingHours: 'Monday – Sunday: 8:00 AM – 9:00 PM (Tours by Appointment)',
+  customLogoUrl: '', // empty means use clean stylized text mark fallback
+  faviconUrl: '',
+};
+
+export const DEFAULT_SOCIAL_LINKS = {
+  instagram: 'https://instagram.com/keeeventandgarden',
+  facebook: '',
+  tiktok: '',
+  youtube: '',
+};
+
+export const DEFAULT_NAVIGATION = [
+  { id: 'nav-home', label: 'HOME', path: '/' },
+  { id: 'nav-about', label: 'ABOUT', path: '/about' },
+  { id: 'nav-venue', label: 'VENUE', path: '/venue' },
+  { id: 'nav-services', label: 'SERVICES', path: '/services' },
+  { id: 'nav-gallery', label: 'GALLERY', path: '/gallery' },
+  { id: 'nav-contact', label: 'CONTACT', path: '/contact' },
+];
+
+export const DEFAULT_FOOTER = {
+  title: 'KEE EVENT & GARDEN',
+  subtitle: 'Jos, Plateau State, Nigeria',
+  aboutText: 'Where moments become memories. A premier indoor and outdoor event destination in Jos dedicated to celebrations, weddings, and distinguished gatherings.',
+  locationNote: 'Justice Akanbi Close, behind St. Piran Church',
+  phoneDisplay: '+234 803 700 6260',
+  phoneHref: 'tel:+2348037006260',
+  whatsAppHref: 'https://wa.me/2348037006260',
+  copyright: '© ' + new Date().getFullYear() + ' Kee Event and Garden. All rights reserved.',
+};
+
+export const DEFAULT_SEO = {
+  home: {
+    title: 'Kee Event and Garden | Premier Venue in Jos',
+    metaDescription: 'Celebrate in elegance at Kee Event and Garden, Jos Plateau State. Lush lawns, covered pavilions, and full-service event support.',
+    socialImage: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1200&q=80',
+  },
+  about: {
+    title: 'About Kee Event & Garden | Jos, Nigeria',
+    metaDescription: 'Learn about our serene garden sanctuary, refined pavilions, and our commitment to unforgettable celebrations in Plateau State.',
+    socialImage: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=80',
+  },
+  venue: {
+    title: 'The Venue & Garden Grounds | Kee Event Jos',
+    metaDescription: 'Explore the Royal Garden Lawn, Emerald Pavilion, and Sunset Terrace. Complete with backup power, security, and parking.',
+    socialImage: 'https://images.unsplash.com/photo-1587271407850-8d438ca9fdf2?auto=format&fit=crop&w=1200&q=80',
+  },
+  services: {
+    title: 'Event Services & Rentals | Kee Event and Garden',
+    metaDescription: 'Tailored event hospitality in Jos: Venue hire, thematic decoration, gourmet catering, small chops, and luxury event equipment rentals.',
+    socialImage: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80',
+  },
+  gallery: {
+    title: 'Photo Gallery | Kee Event & Garden Jos',
+    metaDescription: 'Browse real moments, wedding ceremonies, banquet table setups, and twilight garden celebrations at Kee.',
+    socialImage: 'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=1200&q=80',
+  },
+  contact: {
+    title: 'Contact & Booking Enquiries | Kee Event & Garden',
+    metaDescription: 'Schedule a venue walkthrough or submit an event reservation request for your upcoming occasion in Jos.',
+    socialImage: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=80',
+  },
+};
+
+export const DEFAULT_HOMEPAGE = {
+  heroTagline: 'Jos, Plateau State',
+  heroHeadline: 'Exquisite Garden Weddings & Receptions',
+  heroSupportingText: 'Where lush highland lawns, elegant pavilions, and distinguished hospitality come together to craft memories that linger for a lifetime.',
+  primaryCtaText: 'RESERVE THE VENUE',
+  primaryCtaLink: '/contact',
+  secondaryCtaText: 'EXPLORE SPACES',
+  secondaryCtaLink: '/venue',
+  heroSlides: [
+    {
+      id: 'slide-1',
+      image: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=2000&q=85',
+      alt: 'Lush Garden Wedding Reception with warm illumination at Kee Event and Garden Jos',
+      tagline: 'Jos, Plateau State',
+      title: 'Exquisite Garden Weddings & Receptions',
+    },
+    {
+      id: 'slide-2',
+      image: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=2000&q=85',
+      alt: 'Grand banquet tables and luxury canopy setting under the evening Jos sky',
+      tagline: 'Indoor & Outdoor Elegance',
+      title: 'Unforgettable Private Celebrations & Banquets',
+    },
+    {
+      id: 'slide-3',
+      image: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=2000&q=85',
+      alt: 'Manicured green lawns and tranquil garden atmosphere in Jos',
+      tagline: 'Serene Nature & Distinction',
+      title: 'Corporate Galas, Retreats & Garden Occasions',
+    },
+  ],
+  introHeading: 'A Serene Sanctuary in the Heart of Jos',
+  introSubtitle: 'Crafted for Unmatched Celebrations',
+  introText: 'Nestled on Justice Akanbi Close behind St. Piran Church, Kee Event and Garden offers a harmonious blend of refreshing highland climate, manicured flora, and refined covered halls.',
+};
+
+export const DEFAULT_ABOUT = {
+  heading: 'Where Moments Become Memories',
+  subheading: 'A Legacy of Distinction in Jos',
+  introParagraph: 'Kee Event and Garden was conceived with a single, clear vision: to give the historic city of Jos a premier destination that marries the serenity of nature with effortless, modern event luxury.',
+  storyParagraph1: 'Blessed with Plateau State’s uniquely cool and temperate climate, our estate provides natural floral canopies, velvet lawn walkways, and architecture designed to embrace open-air celebration while keeping guests sheltered in all weather.',
+  storyParagraph2: 'From breathtaking wedding processionals along our manicured central lawn to distinguished corporate summits and joyous family milestone banquets, we take genuine pride in stewarding your most momentous occasions.',
+  ctaHeading: 'Experience Kee In Person',
+  ctaText: 'We invite couples, planners, and corporate organizers for guided walk-throughs of our lawns, covered halls, and amenities.',
+  ctaButtonText: 'SCHEDULE A WALK-THROUGH',
+  ctaButtonLink: '/contact',
+};
+
+export const DEFAULT_VENUE = {
+  heroImage: 'https://images.unsplash.com/photo-1587271407850-8d438ca9fdf2?auto=format&fit=crop&w=2000&q=80',
+  title: 'Distinguished Spaces For Every Gathering',
+  subtitle: 'Indoor & Outdoor Versatility',
+  description: 'Whether hosting an intimate gathering of 50 or an elaborate wedding celebration of 500+, Kee offers thoughtfully zoned areas with modern infrastructure.',
+  spaces: [
+    {
+      id: 'grand-lawn',
+      name: 'The Royal Garden Lawn',
+      setting: 'Outdoor Garden',
+      description: 'Expansive, velvet-green lawn bordered by mature trees and scenic floral landscaping, ideal for open-sky wedding vows and large marquee setups.',
+      image: 'https://images.unsplash.com/photo-1587271407850-8d438ca9fdf2?auto=format&fit=crop&w=1000&q=80',
+      features: ['Level natural turf', 'Chandelier-ready tree canopies', 'Wide panoramic photo angles', 'Generous guest spacing'],
+    },
+    {
+      id: 'covered-pavilion',
+      name: 'The Emerald Pavilion & Hall',
+      setting: 'Covered Pavilion',
+      description: 'A stylish covered space designed for seamless all-weather comfort. Keeps your guests protected while maintaining a refreshing open-air garden connection.',
+      image: 'https://images.unsplash.com/photo-1545232979-fbf673238692?auto=format&fit=crop&w=1000&q=80',
+      features: ['High ventilation ceiling', 'Integrated lighting rigging', 'Polished staging area', 'Weather-protected dining'],
+    },
+    {
+      id: 'twilight-terrace',
+      name: 'The Sunset Terrace & Lounge',
+      setting: 'Private Lounge',
+      description: 'An intimate paved terrace framed by warm ambient fairy lights and garden planters, tailored for cocktail hours, VIP seating, or after-parties.',
+      image: 'https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=1000&q=80',
+      features: ['Festive bistro lighting', 'Cocktail bar station', 'Comfortable lounge groupings', 'Photogenic focal wall'],
+    },
+  ],
+};
+
+export const DEFAULT_SERVICES = [
+  {
+    id: 'venue-hire',
+    title: 'VENUE HIRE',
+    description: 'Beautiful indoor and outdoor spaces for different types of occasions, customizable for day or evening events.',
+    iconName: 'Building',
+    enabled: true,
+    details: [
+      'Flexible full-day or half-day booking options',
+      'Exclusive estate privacy during your reservation',
+      'Ample secure vehicle parking and guest reception',
+      'Dedicated on-site venue coordinator',
+    ],
+  },
+  {
+    id: 'event-decoration',
+    title: 'EVENT DECORATION',
+    description: 'Elegant event styling and decoration for memorable celebrations, from romantic floral arches to luxury banquet tables.',
+    iconName: 'Sparkles',
+    enabled: true,
+    details: [
+      'Bespoke floral design and stage backdrops',
+      'Atmospheric lighting and drape treatments',
+      'Luxury tableware, chargers, and centerpieces',
+      'Custom theme creation tailored to your vision',
+    ],
+  },
+  {
+    id: 'catering',
+    title: 'CATERING & REFRESHMENTS',
+    description: 'Food, drinks, cakes and small chops for events, crafted with freshness and authentic flavours to delight your guests.',
+    iconName: 'Utensils',
+    enabled: true,
+    details: [
+      'Gourmet multi-course plated and buffet meals',
+      'Traditional Nigerian delicacies and continental fare',
+      'Crispy small chops, hors d’oeuvres, and finger foods',
+      'Custom celebration cakes and beverage service',
+    ],
+  },
+  {
+    id: 'event-rentals',
+    title: 'EVENT RENTALS',
+    description: 'Relevant event equipment and rental support to ensure flawless logistics and guest comfort from start to finish.',
+    iconName: 'ShieldCheck',
+    enabled: true,
+    details: [
+      'Luxury Chiavari, Phoenix, and banquet chairs',
+      'High-grade round and banquet dining tables',
+      'Heavy-duty cooling fans and outdoor climate gear',
+      'Staging platforms, podiums, and velvet stanchions',
+    ],
+  },
+];
+
+export const DEFAULT_GALLERY = [
+  {
+    id: 'gal-1',
+    title: 'Grand Garden Wedding Ceremony',
+    category: 'weddings',
+    categoryLabel: 'Weddings',
+    image: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Sunlit outdoor bridal vows surrounded by manicured landscaping at Kee Event and Garden.',
+    order: 1,
+  },
+  {
+    id: 'gal-2',
+    title: 'Golden Hour Banquet Setting',
+    category: 'garden',
+    categoryLabel: 'Garden & Lawns',
+    image: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Impeccable table arrangements glowing under the golden Jos sunset.',
+    order: 2,
+  },
+  {
+    id: 'gal-3',
+    title: 'Bespoke Floral Arch & Stage',
+    category: 'decor',
+    categoryLabel: 'Decoration',
+    image: 'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Artisan floral arches hand-crafted for couple photo moments and stage elegance.',
+    order: 3,
+  },
+  {
+    id: 'gal-4',
+    title: 'Evening Chandelier Pavilion',
+    category: 'decor',
+    categoryLabel: 'Decoration',
+    image: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Crystal chandeliers and soft warm glows transform the evening into pure magic.',
+    order: 4,
+  },
+  {
+    id: 'gal-5',
+    title: 'Celebration Toast & Milestone Dinner',
+    category: 'celebrations',
+    categoryLabel: 'Celebrations',
+    image: 'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Laughter, fine dining, and joyous celebrations with family and friends.',
+    order: 5,
+  },
+  {
+    id: 'gal-6',
+    title: 'Serene Green Garden Pathway',
+    category: 'garden',
+    categoryLabel: 'Garden & Lawns',
+    image: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Tranquil paved garden walkway framed by tropical greenery and blooming flora.',
+    order: 6,
+  },
+  {
+    id: 'gal-7',
+    title: 'Luxury Tableware & Place Settings',
+    category: 'decor',
+    categoryLabel: 'Decoration',
+    image: 'https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Gold cutlery, crystal glassware, and customized menu cards for distinguished guests.',
+    order: 7,
+  },
+  {
+    id: 'gal-8',
+    title: 'Festive Cocktail & Small Chops Bar',
+    category: 'celebrations',
+    categoryLabel: 'Celebrations',
+    image: 'https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=1200&q=80',
+    caption: 'Fresh refreshments, artisan drinks, and delightful finger foods under warm bistro lights.',
+    order: 8,
+  },
+];

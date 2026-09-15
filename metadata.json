@@ -1,0 +1,6 @@
+{
+  "name": "Kee Event and Garden",
+  "description": "Premier event venue and lush garden setting in Jos, Plateau State, Nigeria for weddings, celebrations, corporate gatherings, and unforgettable occasions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
